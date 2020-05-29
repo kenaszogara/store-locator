@@ -1,11 +1,4 @@
-## Google Maps API Key
+## Google Maps Project - Creating a Store Locator
+My 5 days-challenge to create a Store Locator App
 
-AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk
-
-**WARNING**
-DO NOT SHARE IT WITH ANYONE
-
-## FontAwesome Link
-
-https://kit.fontawesome.com/c939d0e917.js
-
+live here: https://google-maps-challenge.now.sh

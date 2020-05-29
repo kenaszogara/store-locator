@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Store Locator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+    integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <script src="js/store-data.js"></script>
+  <script src="js/const.js"></script>
+  
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/breakpoints.css">
+</head>
+<body>
+  <div class="title">Store Locator</div>
+
+  <div class="search-container">
+    <div class="search">
+      <input id="search" type="text" placeholder="search store..." onchange="searchStores()">
+      <span class="icon" onclick="searchStores()">
+        <i class="fas fa-search"></i>
+      </span>
+    </div>
+  </div>
+
+  <div class="store-list-container">
+    <div class="store-list"></div>
+  </div>
+
+  <div class="drop-down" onclick="toggleHide()">
+    <i class="fas fa-chevron-down"></i>
+  </div>
+
+  <div id="map"></div>
+  
+  <script src="js/index.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0P4S9xgzQiAtTTRyNLNC-CUXiUA8CwO8&callback=initMap">
+  </script>
+</body>
+</html>
